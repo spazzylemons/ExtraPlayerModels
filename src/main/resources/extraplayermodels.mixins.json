@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "spazzylemons.extraplayermodels.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MinecraftServerMixin",
+    "PlayerManagerMixin"
+  ],
+  "client": [
+    "AbstractClientPlayerEntityMixin",
+    "CameraMixin",
+    "EntityRenderDispatcherMixin",
+    "MinecraftClientMixin",
+    "ModelPartMixin",
+    "MouseMixin",
+    "SkinOptionsScreenMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
