@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "extraplayermodels",
+  "version": "${version}",
+
+  "name": "Extra Player Models",
+  "description": "Adds the ability to create custom player models.",
+  "authors": [
+    "spazzylemons"
+  ],
+  "contact": {
+    "homepage": "https://github.com/spazzylemons/ExtraPlayerModels",
+    "sources": "https://github.com/spazzylemons/ExtraPlayerModels"
+  },
+
+  "license": "MIT",
+  "icon": "assets/extraplayermodels/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "spazzylemons.extraplayermodels.EntryKt::init"
+    ],
+    "client": [
+      "spazzylemons.extraplayermodels.EntryKt::clientInit"
+    ],
+    "modmenu": [
+      "spazzylemons.extraplayermodels.ExtraPlayerModelsModMenu"
+    ]
+  },
+  "mixins": [
+    "extraplayermodels.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.1",
+    "fabric": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "1.15.x"
+  }
+}

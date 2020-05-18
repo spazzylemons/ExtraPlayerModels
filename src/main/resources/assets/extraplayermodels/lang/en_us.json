@@ -1,0 +1,14 @@
+{
+  "text.extraplayermodels.loadmodel.success": "The model was loaded successfully.",
+  "text.extraplayermodels.loadmodel.failure": "The model could not be loaded, check your syntax and that the file exists",
+  "text.extraplayermodels.loadmodel.explanation": "Couldn't load the model! Reason: %s",
+
+  "text.extraplayermodels.appearance": "Appearance",
+  "text.extraplayermodels.appearance.withmodname": "Extra Player Models options",
+  "text.extraplayermodels.config.title": "Extra Player Models config",
+  "text.extraplayermodels.config.unfinished": "This screen is unfinished. For now, you can edit your configuration manually.",
+  "text.extraplayermodels.config.reload": "Reload config",
+  "text.extraplayermodels.config.view": "Open config folder",
+
+  "key.extraplayermodels.camerakey": "Look at model"
+}
