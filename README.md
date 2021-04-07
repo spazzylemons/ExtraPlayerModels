@@ -1,3 +1,7 @@
+# Update
+
+I am not planning to maintain this repository so I am working on a less customizable mod which will hopefully be less daunting for me to update and maintain. Check it out [here](https://github.com/spazzylemons/ProtoPlayerModels).
+
 # Extra Player Models
 
 Adds the ability to create custom player models.
